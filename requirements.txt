@@ -5,7 +5,6 @@ pandas==1.1.5
 geopandas==0.6.1
 numpy==1.19.5
 pydeck==0.7.0
-python==3.7.12
 ngrok==2.3.40
 pyngrok==5.1.0
 altair==4.1.0
