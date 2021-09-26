@@ -37,7 +37,7 @@ st.markdown('<p class="big-font">Origins and Destinations of Travelling Data for
 st.title("By Siraphop Thanyapisetsak 6130828021")
 
 # LAYING OUT THE TOP SECTION OF THE APP
-row1_1, row1_2 = st.beta_columns((2,3))
+row1_1, row1_2 = st.columns(2)
 
 with row1_1:
     date_select = st.selectbox("Date Selection",("Jan. 1, 2019", "Jan. 2, 2019","Jan. 3, 2019","Jan. 4, 2019","Jan. 5, 2019"))
@@ -133,7 +133,7 @@ data1 = data1[(data1[DATE_TIME].dt.hour == hour_selected) & (data1[DATE_TIME].dt
 data2 = data2[(data2[DATE_TIME].dt.hour == hour_selected) & (data2[DATE_TIME].dt.year == 2019)]
 
 # LAYING OUT THE MIDDLE SECTION OF THE APP WITH THE MAPS
-row2_1, row2_2 = st.beta_columns((1,1))
+row2_1, row2_2 = st.columns(2)
 
 # SETTING THE ZOOM LOCATIONS FOR THE AIRPORTS
 zoom_level = 11
