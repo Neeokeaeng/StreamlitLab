@@ -50,7 +50,7 @@ with row1_2:
     Examining the number of travelling started and destinations reached for areas near Bankok.
     By sliding the slider on the left and selecting date you can view different slices of date and time and explore different transportation trends.
 
-    This website was made by Siraphop Thanyapisetsak Student NO. 6130828021
+    This website was created by Siraphop Thanyapisetsak Student NO. 6130828021
     """)
 
 timedisplay = "Date Displayed : " + date_select
